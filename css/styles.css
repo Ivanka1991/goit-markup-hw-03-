@@ -1,0 +1,210 @@
+:root {
+  --accent-color: #2196f3;
+  --accent-color-text: #000000;
+  --second-color-text: #757575;
+  --third-color-text: #ffff;
+  --main-font: "Roboto", sans-serif;
+  --second-font: "Raleway", sans-serif;
+  --third-font: "Oleo Script", cursive;
+}
+body {
+  font-family: var(--main-font);
+}
+.navigation-list-link:hover,
+.navigation-list-link:focus,
+.header-tel:hover,
+.header-tel:focus,
+.header-mail:hover,
+.header-mail:focus {
+  color: var(--accent-color);
+}
+/*===========Header===========*/
+.logo {
+  font-family: var(--second-font);
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: var(--accent-color-text);
+  text-decoration: none;
+}
+.logo-web {
+  font-family: var(--second-font);
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 1.385;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: var(--accent-color);
+}
+.navigation-list-item,
+.address-list {
+  list-style-type: none;
+}
+.navigation-list-link {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: var(--accent-color-text);
+  text-decoration: none;
+}
+
+.header-tel,
+.header-mail {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: var(--second-color-text);
+  text-decoration: none;
+}
+.address {
+  font-style: normal;
+}
+/*=========== End Header===========*/
+/*===========Hero===========*/
+.hero-heading {
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.367;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
+  /*color: var(--third-color-text);*/
+}
+.hero-button {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
+  text-align: center;
+  background: var(--third-color-text);
+  color: var(--accent-color-text);
+}
+/*===========End Hero===========*/
+/*===========Advantages===========*/
+.advantages-list-heading {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-align: left;
+  text-transform: uppercase;
+  color: var(--accent-color-text);
+}
+.advantages-list-item-text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: var(--second-color-text);
+}
+/*===========End Advantages===========*/
+/*===========Directions===========*/
+.title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.167;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--accent-color-text);
+}
+/*===========End Directions===========*/
+/*===========Command===========*/
+.command-names {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.188;
+  letter-spacing: 0.03em;
+  color: var(--accent-color-text);
+  text-align: center;
+}
+.command-position {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.188;
+  letter-spacing: 0.03em;
+  color: var(--second-color-text);
+  text-align: center;
+}
+/*===========End Command===========*/
+/*===========Footer===========*/
+.footer-logo {
+  font-family: var(--second-font);
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: var(--third-color-text);
+}
+.foorer-logo-web {
+  font-family: var(--second-font);
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 1.385;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: var(--accent-color);
+}
+.footer-address {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: var(--third-color-text);
+}
+
+.footer-contacts {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: var(--third-color-text);
+}
+.footer-list,
+.portfolio-list,
+.examples,
+.examples-link,
+.advantages-list,
+.directions-list,
+.command-list {
+  text-decoration: none;
+  list-style-type: none;
+}
+/*===========End Footer===========*/
+/*===========Button===========*/
+.portfolio-list-btn {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.625;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--accent-color-text);
+}
+/*===========End Button===========*/
+/*===========Progects examples===========*/
+.examples-list-heading {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  text-align: left;
+  color: var(--accent-color-text);
+}
+.examples-list-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: var(--second-color-text);
+}
+/*===========End Progects examples===========*/
