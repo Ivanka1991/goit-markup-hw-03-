@@ -111,10 +111,6 @@ img {
   text-align: left;
   color: var(--accent-color);
 }
-.navigation-list-item,
-.address-list {
-  list-style-type: none;
-}
 .navigation-list-link {
   font-size: 14px;
   font-weight: 500;
@@ -142,6 +138,8 @@ img {
 /*===========Hero===========*/
 .hero {
   text-align: center;
+  padding-bottom: 210px;
+  background-color: #2f303a;
 }
 .hero-heading {
   font-size: 44px;
@@ -150,8 +148,9 @@ img {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   text-align: center;
-  /*color: var(--third-color-text);*/
-  margin-bottom: 30px;
+  color: var(--third-color-text);
+  margin-bottom: 40px;
+  padding-top: 200px;
 }
 .hero-button {
   font-size: 16px;
@@ -162,7 +161,6 @@ img {
   color: var(--accent-color-text);
   min-width: 200px;
   border-radius: 4px;
-  background-color: transparent;
   cursor: pointer;
   padding: 10px 32px;
 }
@@ -230,6 +228,7 @@ img {
 .command-list {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 94px;
 }
 .command-card {
   padding-top: 30px;
@@ -304,10 +303,17 @@ img {
 
 /*===========End Footer===========*/
 /*===========Button===========*/
+.portfolio-list-btn:focus,
+.portfolio-list-btn:hover {
+  background-color: var(--accent-color);
+  color: var(--third-color-text);
+}
 .portfolio-list {
   display: flex;
   text-align: center;
-  align-items: center;
+  padding-top: 94px;
+  padding-bottom: 50px;
+  padding-left: 280px;
 }
 .portfolio-list-btn {
   font-size: 16px;
@@ -316,9 +322,32 @@ img {
   letter-spacing: 0.03em;
   text-align: center;
   color: var(--accent-color-text);
+  margin-right: 8px;
+  min-height: 38px;
+  border-radius: 4px;
+  background-color: #f5f4fa;
+  padding: 6px 22px;
 }
 /*===========End Button===========*/
 /*===========Progects examples===========*/
+.examples {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 94px;
+  justify-content: space-between;
+}
+.examples-list-img {
+  height: 294px;
+  width: 370px;
+}
+.examples-list {
+  border: 1px solid #eeeeee;
+  margin-bottom: 30px;
+}
+
+.card-content {
+  padding: 20px 24px;
+}
 .examples-list-heading {
   font-size: 18px;
   font-weight: 700;
