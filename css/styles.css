@@ -55,8 +55,7 @@ img {
   letter-spacing: 0.03em;
   text-align: center;
   color: var(--accent-color-text);
-  padding-bottom: 50px;
-  padding-top: 94px;
+  margin-bottom: 50px;
 }
 
 /*===========Header===========*/
@@ -208,6 +207,7 @@ img {
 /*===========Directions===========*/
 .directions {
   padding-bottom: 94px;
+  padding-top: 94px;
 }
 .directions-list {
   display: flex;
@@ -314,8 +314,8 @@ img {
   display: flex;
   text-align: center;
   padding-top: 94px;
-  padding-bottom: 50px;
-  padding-left: 280px;
+  margin-bottom: 50px;
+  justify-content: center;
 }
 .portfolio-list-btn {
   font-size: 16px;
@@ -347,7 +347,9 @@ img {
   border: 1px solid #eeeeee;
   margin-bottom: 30px;
 }
-
+.examples-list:nth-child(n + 7) {
+  margin-bottom: 0;
+}
 .card-content {
   padding: 20px 24px;
 }
